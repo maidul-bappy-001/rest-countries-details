@@ -1,0 +1,26 @@
+#countryDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.country {
+    border: 2px solid #f5da0a;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 378px;
+}
+
+.country-name {
+    color: #1c4bc0;
+    font-size: 40px;
+}
+
+.capital-name {
+    font-size: 25px;
+}
+
+#countryDetails img {
+    width: 200px;
+}
